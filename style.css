@@ -1,31 +1,63 @@
-header{
-    font-style: italic;
-    font-family: 'Trebuchet MS';
-    font-size: h1{20px};
-    
 
-    
-}
 
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: h2{14px};
     background-color: antiquewhite;
     background-position: center;
-    background-size: 95%;
+    background-size: 80%;
+
 
 }
 
-main{
+
+
+main {
     background-color: white;
-    width: 95%;
+    width: 90%;
     margin: auto;
+}
+
+.Titulo{
+    display: flex;
+    margin-left: 30px;
+    }
+
+.header {
+    display: flex;
+    font-style: italic;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+}
+
+.tabela{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
 
 }
 
+.th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
 
+.td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px; 
+}
 
+.tr :nth-child {
+    background-color: #dddddd;
+}
 
+.figura{
+    display: flex;
+    margin-left: 80px;
+}
 
-
-   
+.seções{
+    display: flex;
+    margin-left: 600px;
+}
