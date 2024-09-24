@@ -17,6 +17,11 @@ main {
     margin: auto;
 }
 
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
 .Titulo{
     display: flex;
     margin-left: 30px;
@@ -24,6 +29,7 @@ main {
 
 .header {
     display: flex;
+    justify-content: space-around;
     font-style: italic;
     font-family: 'Trebuchet MS';
     font-size: 20px;
@@ -57,7 +63,17 @@ main {
     margin-left: 80px;
 }
 
-.seções{
+.secoes{
     display: flex;
-    margin-left: 600px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+}
+.lista{
+    margin-left: 300px;
+   
 }
