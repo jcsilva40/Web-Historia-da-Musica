@@ -22,7 +22,7 @@ main {
 
 .barra{
     width: 450px;
-    height: 70px;
+    height: 80px;
 }
 
 .paragrafo1 {
@@ -36,15 +36,15 @@ main {
 }
 
 .figura {
-    margin-left: 100px;
+    padding-left: 80px;
 }
 
 .Titulo {
-    margin-right: 100px;
+    padding-right: 100px;
 }
 
 .secoes {
-    margin-right: 80px;
+    padding-right: 80px;
     text-decoration: underline;
 }
 
