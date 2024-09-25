@@ -35,8 +35,8 @@ main {
 
 
 .barra{
-    width: 450px;
-    height: 80px;
+    width: 350px;
+    height: 40px;
 }
 
 .secoes {
@@ -77,8 +77,8 @@ main {
 .tabela-total{
 display: flex;
 flex-direction: column;
-justify-content: center;
-align-items: center;
+justify-content: left;
+
 
 }
 
@@ -117,16 +117,8 @@ align-items: center;
     display: flex;
     justify-content:left;
     font-size: 15px;
-    padding-left: 90px;
+    padding-left: 10px;
 }
-
-.rodape2{
-    display: flex;
-    justify-content:left;
-    font-size: 15px;
-    padding-left: 90px;
-}
-
 
 .diretos-reservados{
     display: flex;
