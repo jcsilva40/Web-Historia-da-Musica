@@ -4,6 +4,7 @@
     flex-direction: row;
     padding-left: 100px;
     
+    
 }
 
 .info{
@@ -60,10 +61,16 @@ main {
 .secoes {
     padding-right: 80px;
     text-decoration: underline;
+    
 }
 
 
 .link {
+    display: flex;
+    flex-direction: row;
+}
+
+.instrumentos{
     display: flex;
     flex-direction: row;
 }
@@ -74,6 +81,7 @@ main {
     width: 50%;
 
 }
+
 
 
 .rodape{
@@ -121,4 +129,10 @@ main {
     justify-content:left;
     font-size: 15px;
     padding-left: 90px;
+}
+
+.linha {
+    height: 1px;
+    background-color: #757272;
+    margin: 10px 0;
 }
