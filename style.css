@@ -8,17 +8,6 @@
     font-size: 20px;
 } 
 
-.bar{
-    display: flex;
-    flex-direction: row;
-    padding-left: 100px;
-    
-    
-}
-
-.info{
-padding-right: 10px;
-}
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -39,7 +28,18 @@ main {
   
 .barra{
     width: 350px;
-    height: 40px;
+    height: 30px;
+
+}
+
+.pesquisar{
+    height: 30px;
+    cursor: pointer;
+    
+}
+
+.barra-pesquisa{
+    padding-top: 35px;
 }
 
 .secoes {
@@ -61,9 +61,7 @@ main {
 
 }
 
-.figura {
-    padding-left: 80px;
-}
+
 
 .Titulo {
     padding-right: 100px;
@@ -72,6 +70,7 @@ main {
 .link {
     display: flex;
     flex-direction: row;
+    padding-top: 15px;
 }
 
 .instrumentos{
