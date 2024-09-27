@@ -1,4 +1,13 @@
 
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;     
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+} 
+
 .bar{
     display: flex;
     flex-direction: row;
@@ -27,15 +36,7 @@ main {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    font-style: italic;     
-    font-family: 'Trebuchet MS';
-    font-size: 20px;
-}   
-
-
+  
 .barra{
     width: 350px;
     height: 40px;

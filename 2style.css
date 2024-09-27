@@ -8,20 +8,15 @@
 
  main {
      background-color: white;
-     width: 50%;
+     width: 700px;
+     height: 400px;
      margin: auto;
  }
 
- .contato {
-     display: flex; 
-     flex-direction: column;
-     
-    
- }
 
  .header {
     display: flex;
-    justify-content: left;
+    justify-content: center;
      font-style: italic;
      font-family: 'Trebuchet MS';
      font-size: 20px;
@@ -35,13 +30,33 @@
  .rodape{
     display: flex;
     justify-content: left;
-    padding-top: 380px;
+    padding-top: 360px;
  }
 
- .imagem{
+
+ .input{
+    color: bisque;
+ }
+
+.imagem{
     display: flex;
     justify-content: center;
+    height: 150px;
+    width: 250px;
+    padding-top: 100px;
+    
+}
 
- }
+.formulario{
+display: flex;
+justify-content: space-around;
+font-size: 20px;
+
+}
+    
+    
+   
+
+    
 
  
