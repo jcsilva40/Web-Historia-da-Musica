@@ -58,6 +58,7 @@ main {
 .logo {
     display: flex;
     flex-direction: row;
+    padding-left: 80px;
 
 }
 
@@ -124,9 +125,12 @@ justify-content: left;
     padding-left: 10px;
 }
 
-.diretos-reservados{
+.display-wiki {
     display: flex;
     justify-content:left;
+}
+
+.diretos-reservados{
     font-size: 15px;
     padding-left: 90px;
 }
